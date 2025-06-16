@@ -15,6 +15,6 @@ public class Product {
     private Integer price;
     private Integer stock;
     private String description;
-    private Date createdDdate;
+    private Date createdDate;
     private Date lastModifiedDate;
 }
