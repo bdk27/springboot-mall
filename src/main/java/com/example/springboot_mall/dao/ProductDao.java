@@ -12,7 +12,7 @@ public interface ProductDao {
 
     List<Product> getProducts(ProductQueryParams productQueryParams);
 
-    Product getProductBtId(Integer productId);
+    Product getProductById(Integer productId);
 
     Integer createProduct(ProductRequest productRequest);
 
